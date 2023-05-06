@@ -1,0 +1,131 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center; 
+}
+.hero{
+   width: 100%;
+   margin: auto;
+   padding: 200px 0px;
+   min-height: 100vh;
+  background-image: url("aboutEco.png");
+  background-position: center;
+  background-size: cover;
+}
+article h1{
+  font-size: 90px;
+  font-weight: 700px;
+  padding: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color:  #0c3d33;
+}  
+content {
+  font-size: 25px ;
+  font-weight: 700;
+  color: #0c3d33;
+  line-height: 1.5;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.mission {
+  display: flex;
+  flex-direction: row;
+  align-items: justify;
+  padding: 150px;
+  min-height: 120vh;
+  background-image: url(mv.png);
+  background-size: cover;
+  text-align: left;
+}
+
+ h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 150px;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 50px;
+}
+
+p{
+  text-align: justify;
+  flex: 6;
+  display: flex;
+  font-size: 20px;
+  line-height: 2.0;
+  text-align: justify;
+  margin-left: 200px;
+  padding: 0px;
+}
+.vision{
+  display: flex;
+  flex-direction: row;
+  align-items: justify;
+  padding: 150px;
+  min-height: 0vh;
+}
+h3 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 300px;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 50px;
+  margin-top: bottom;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  margin-left: 100px; ;
+
+}
+.h3 p{
+  text-align: justify;
+  font-size: 20px;
+  line-height: 2.0;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 0;
+  margin-bottom: 150px;
+  padding-bottom: 100px;
+}
+.vis{
+  background-image: url(mv1.png);
+}
+.goals{
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  padding: 50px;
+  padding-top: 0px;
+  
+}
+h4 {
+  font-size: 50px;
+  font-weight: bold;
+  flex: 6;
+  margin-left: 300px;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 50px;
+  margin-top: 10px;
+  margin-left: 110px; 
+  margin-bottom: 60px;
+  padding-bottom: 0px;
+  padding-top: 80px;
+}
+.endGoals p{
+  display: flex;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 2.0;
+  margin-left: 500px;
+  margin-top: top;
+  padding-bottom: 25px;
+  padding-top: 3px;
+}
+.goals{
+  background-color: whitesmoke;
+  padding-bottom: 60px;
+}
