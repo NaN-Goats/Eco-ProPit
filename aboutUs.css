@@ -1,30 +1,453 @@
-* {
+/*<!-- ABOUT ECO PROPIT -->*/
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center; 
+}
+.hero{
+   width: 100%;
+   margin: auto;
+   padding: 200px 0px;
+   min-height: 100vh;
+  background-image: url("aboutEco.png");
+  background-position: center;
+  background-size: cover;
+}
+article h1{
+  font-size: 90px;
+  font-weight: 700px;
+  padding: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color:  #0c3d33;
+}  
+content {
+  font-size: 25px ;
+  font-weight: 700;
+  color: #0c3d33;
+  line-height: 1.5;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+
+/*<!-- MISSION -->*/
+.mission {
+  display: flex;
+  flex-direction: row;
+  align-items: justify;
+  padding: 150px;
+  min-height: 120vh;
+  background-image: url(mv.png);
+  background-size: cover;
+  text-align: left;
+}
+ h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 150px;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 50px;
+}
+
+p{
+  text-align: justify;
+  flex: 6;
+  display: flex;
+  font-size: 20px;
+  line-height: 2.0;
+  text-align: justify;
+  margin-left: 200px;
+  padding: 0px;
+}
+
+
+
+/*<!-- VISION -->*/
+.vision{
+  display: flex;
+  flex-direction: row;
+  align-items: justify;
+  padding: 150px;
+  min-height: 0vh;
+}
+h3 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 300px;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 50px;
+  margin-top: bottom;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  margin-left: 100px; ;
+
+}
+.h3 p{
+  text-align: justify;
+  font-size: 20px;
+  line-height: 2.0;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 0;
+  margin-bottom: 150px;
+  padding-bottom: 100px;
+}
+.vis{
+  background-image: url(mv1.png);
+}
+
+
+
+/*<!-- END GOALS -->*/
+.ecoGoals{
+  background-color: #5f847d;
+}
+.endGoals{
+  display: flex;
+  flex-direction: row;
+  align-items: justify;
+  padding: 150px;
+  min-height: 0vh;
+
+}
+h4 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 50px;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 50px;
+  margin-top: 250px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  color: #ffffff;
+
+}
+.endGoals pre{
+  text-align: justify;
+  list-style-type: disc;
+  font-size: 18px;
+  line-height: 2.0;
+  margin-left: 200px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  color: #ffffff;
+}
+
+
+
+
+/*<!-- SDG'S -->*/
+.sdgs {
+  text-align: center;
+  background-color: rgb(209, 228, 209)
+}
+h6{
+  font-size: 50px;
+  padding-top: 100px;
+
+}
+
+.threeColumns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+
+.column {
+  flex-basis: calc(33.33% - 30px);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.column img {
+  width: 200%;
+  max-width: 400px;
+  height: 10;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+}
+.column h5 {
+  font-size: 20px;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.column p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/*<!-- FOUNDERS -->*/
+.section-wrapper{
+  background-color: #5f847d;
+  padding-top: 20px;
+
+}
+.info-title {
+  font-size: 2rem;
+}
+
+.info-sub-title {
+  font-size: 1rem;
+}
+
+.form-title{
+  font-size: 1rem;
+
+}
+.team {
+  text-align: center;
+  padding-bottom: 20px;
+  background-image: url(mv1.png);
+}
+
+.team h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 30px;
+  color: #0c3d33;
+  font-weight: bold;
+  margin-left: 30px;
+
+}
+
+.members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.member {
+  margin: 6rem;
+}
+
+.member img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.member h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.member p {
+  font-size: 0.5rem;
+  margin: 0;
+  color: gray;
+}
+.member {
+  margin: 2.5rem;
+  position: relative;
+}
+
+.member img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  border: 3px solid #0c0c0c;
+}
+
+.member:hover img {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+  
+}
+.member h3, .member p {
+  border: 1px solid #5c2274;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.member h3:hover{
+  opacity: 1;
+  cursor: pointer;
+
+  background-color: #0c3d33;
+  color: #fff
+  
+}
+
+
+
+/*<!-- Contact Information -->*/
+
+*{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'TT Travels', sans-serif;
 }
-  
-  
-.header {
-  width: 100%;
-  height: 100px;
-  padding: 0 10%;
-  background: #0c3d33;
-} 
-nav {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px 0;
+input, textarea, a{
+  font-family: 'Times New Roman', Times, serif;
 }
-  nav ul li {
-  display: inline-block;
+#section-wrapper{
+  width: 100%;
+  padding: 10px;
+}
+.box-wrapper{
+  position: relative;
+  display: table;
+  width: 1100px;
+  margin: auto;
+  margin-top: 35px;
+  border-radius: 30px;
+
+}
+.info-wrap{
+  width: 35%;
+  height: 650px;
+  padding: 40px;
+  float: left;
+  display: block;
+  border-radius: 30px 0px 0px 30px;
+  background: linear-gradient(144deg, rgb(86, 145, 109)0%, rgb(39, 157, 151)100%);
+  color: #fff;
+
+}
+.info-title{
+  text-align: left;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  margin-left: 0px;
+}
+.info-sub-title{
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: none;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  text-align: center;
+  margin-left: 0.1px;
+  padding-top: 0.1px;
+
+}
+.info-details span{
+  font-size: 13px;
+  align-items: right;
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.info-details li{
   list-style: none;
-  margin: 10px 30px;
+  margin: 60px 0px;
+
 }
-nav ul li a {
+.info-details li{
+  margin-top: 25px;
+  font-size: 18px;
+  color: #fff;
+}
+.info-details li i{
+  padding: 12px;
+  margin-right: 5px;
+  text-align: left;
+
+}
+.info-details li a{
+  color: #fff;
   text-decoration: none;
-  color: #F3F4E7;
+  border-radius: 50%;
+  margin-right: 5px;
+  font-size: 12px;
+
 }
+.info-details li a:hover{
+  color: green;
+}
+
+.form-wrap{
+  width: 65%;
+  float: right;
+  padding: 40px 24px 35px 25px;
+  border-radius: 0px 30px 30px 0px;
+  background: #ecf0f3;
+  height: 650px;
+  margin-bottom: 60px;
+}
+.form-title{
+  text-align: left;
+  margin-left: 23px;
+  font-size: 28px;
+  letter-spacing: 0.5px;
+}
+
+.form-fields{
+  display: table;
+  width: 100%;
+  padding: 15px 5px 5px 5px;
+}
+
+.form-fields input, .form-fields textarea{
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding: 20px 10px 20px 5px;
+  width: 100%
+}
+.form-fields textarea{
+  height: 150px;
+  resize: none;
+
+}
+.form-group{
+  width: 46%;
+  float: left;
+  padding: 0px 30px;
+  margin: 14px 12px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #ecf0f3, inset -8px -8px 8px #ffffff ;
+
+}
+.form-fields .form-group:last-child{
+  width: 96%;
+}
+
+.submit-button{
+  width: 96%;
+  height: 60px;
+  margin: 0px 12px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  background:#5f847d;
+  box-shadow: 3px 3px 8px #b1b1b1, -3x -3x 8px #ffffff;
+  transition: 1s;
+}
+.submit-button:hover{
+  background-color: green;
+}
+
