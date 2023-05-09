@@ -1,0 +1,33 @@
+body{
+  display: flex;
+  height: 100vh;
+  background-image: url(https://github.com/NaN-Goats/Eco-ProPit/blob/main/image/Eco-ProPit%20Donation%20Bg.png?raw=true);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Verdana;
+  margin-left: 10%;
+}
+
+.container h1{
+  padding-top: 160px;
+  font-size: clamp(2rem, 1rem + 3.2vw, 3rem);
+  color:bisque;
+}
+
+.container h2{
+  color: bisque;
+  font-size: clamp(1rem, 0rem + 3.2vw, 2rem);
+}
+
+select{
+  width: 200px;
+  height: 30px;
+  border-radius: 7px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="donedonation.css">
+  <title>Ec0-propit</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Thank you for choosing to donate your money.</h1>
+    <h2>Here are your some benefeciaries you can choose from.</h2>
+    <select name="" id="select">
+      <option value="">Options</option>
+    </select>
+      <button type="submit">Submit</button>
+  </div>
+
+
+  <script>
+    
+    let benefeciaries = ["Happy Farms", "Lowes Farm","Free Range","Chescka Veggies"]
+
+    benefeciaries.forEach(function(benefeciaries){
+      let option = document.createElement("option");
+      option.text = benefeciaries;
+      option.value = benefeciaries;
+
+      select.appendChild(option);
+
+    })
+
+    
+    button.onclick = () => {
+      alert("Thank you for donating!")
+    }
+  </script>
+
+</body>
+</html>
